@@ -1,36 +1,20 @@
 {
-  "expo": {
-    "name": "viro-mobile",
-    "slug": "viro-mobile",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
-    "userInterfaceStyle": "automatic",
-    "splash": {
-      "image": "./assets/images/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
-    },
-    "web": {
-      "bundler": "metro",
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
-    },
-    "plugins": [
-      "expo-router"
-    ],
-    "experiments": {
-      "typedRoutes": true
-    }
-  }
+  "name": "viro-app",
+  "slug": "viro-app",
+  "plugins": [
+    [
+    "expo-font", {
+      "fonts": [
+        "./assets/fonts/Archivo-Bold.ttf",
+        "./assets/fonts/Archivo-BoldItalic.ttf",
+        "./assets/fonts/Archivo-Italic.ttf",
+        "./assets/fonts/Archivo-Medium.ttf",
+        "./assets/fonts/Archivo-MediumItalic.ttf",
+        "./assets/fonts/Archivo-Regular.ttf",
+        "./assets/fonts/Archivo-SemiBold.ttf",
+        "./assets/fonts/Archivo-SemiBoldItalic.ttf"
+        ]
+      } 
+    ]
+  ]
 }
